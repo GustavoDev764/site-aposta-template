@@ -1,0 +1,160 @@
+/**
+*   Tables
+*   Page: Geral
+*/
+
+.table-hover tbody tr:hover {
+  color: #ffffff !important;
+  background-color: #343a40 !important;
+}
+
+/**
+* List
+* Page: Geral
+*/
+
+.hove-item:hover {
+  color: #fff;
+  background-color: #343a40;
+  cursor: pointer;
+  border-radius: 3px;
+}
+.click-me:active {
+  color: #fff;
+  background-color: #007bff;
+  cursor: pointer;
+  border-radius: 3px;
+}
+.active-item {
+  color: #fff;
+  background-color: #343a40;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+/*
+* List
+* Page: Lista de Jogos
+*/
+
+.cusor-point {
+  cursor: pointer !important;
+}
+
+.icon-all {
+  background-color: #007bff;
+  border-radius: 3px;
+  color: #fff;
+}
+.row-color {
+  background-color: white;
+  border-radius: 3px;
+  padding: 0.6em;
+}
+
+.row-color:hover {
+  background-color: #343a40;
+  color: #fff;
+  border-radius: 3px;
+  padding: 0.6em;
+}
+
+/*
+*
+* Mini Box
+*/
+
+.mini-box {
+  width: "100%";
+  display: flex;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  margin-bottom: 7px;
+  user-select: none;
+  cursor: default;
+  border-width: thin;
+  border-style: solid;
+  border-color: rgb(204, 204, 204);
+  border-image: initial;
+  border-radius: 0.3em;
+  flex: 1 1 0%;
+}
+
+.mini-box-head {
+  background-color: #17a2b8;
+  display: flex;
+  justify-content: space-around;
+  color: rgb(255, 255, 255);
+  padding: 7px 0px;
+}
+
+.mini-box-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  -webkit-box-align: center;
+  align-items: center;
+  height: 70px;
+  padding: 5px;
+}
+
+@media (min-width: 576px) {
+  .tm-mini-box {
+    -ms-flex: 0 0 25%;
+    flex: 0 0 25%;
+    max-width: 13%;
+  }
+}
+
+.color-success {
+  color: #28a745;
+}
+
+/*
+*
+* Compoenent: MainSidebar
+*/
+
+.icon-close-menu {
+  display: none;
+}
+
+@media screen and (max-width: 992px) {
+  .icon-close-menu {
+    display: block;
+  }
+
+  .fixed-menu-top {
+    width: 100% !important;
+    height: 3.1em !important;
+    position: fixed !important;
+    top: 0px !important;
+  }
+
+  div .wrapper {
+    margin-top: 3.1em;
+  }
+}
+
+/*
+* Cente item 
+*
+*/
+
+.center {
+  position: fixed !important;
+  top: 0 !important;
+  right: 0 !important;
+  bottom: 0 !important;
+  left: 0 !important;
+  margin: 0 !important;
+  box-sizing: border-box !important;
+  min-width: 0 !important;
+  max-width: none !important;
+  min-height: 0 !important;
+  max-height: none !important;
+  width: 100% !important;
+  height: 100% !important;
+  transform: none !important;
+}
